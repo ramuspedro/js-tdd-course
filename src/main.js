@@ -5,7 +5,7 @@ const b = 4;
 const c = 'ashahsuah';
 
 function sum() {
-    return a + b + c;
+  return a + b + c;
 }
 
 sum();
