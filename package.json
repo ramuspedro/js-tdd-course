@@ -4,7 +4,7 @@
   "description": "Nossa biblioteca do curso js na pratica",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node ./node_modules/.bin/mocha ./test/**/*.spec.js",
     "lint": "./node_modules/.bin/eslint src/*.js"
   },
   "repository": {
@@ -23,8 +23,10 @@
   },
   "homepage": "https://github.com/ramuspedro/js-tdd-course#readme",
   "devDependencies": {
+    "chai": "^4.2.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.11.0"
+    "eslint-plugin-import": "^2.11.0",
+    "mocha": "^6.1.4"
   }
 }
